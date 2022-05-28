@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>God Save the Queen - Contact Page</title>
+    <link href="JC/Style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="cont">
+      <div class="head">
+          CONTACT
+      </div>
+      <nav class="nave">
+        <a href="Home.html" style="background-color:#F0F8FF; color: black; height:20px; width:800px;">HOME</a>
+        <a href="Game.html" style="background-color:#F0F8FF; color: black; height:20px; width:800px;">GAME</a>
+        <a href="Contact.html" style="background-color:#F0F8FF; color: black; height:20px; width:800px;">CONTACT</a>
+        <a href="About.html" style="background-color:#F0F8FF; color: black; height:20px; width:800px;">ABOUT</a>
+        <a href="CV.html" style="background-color:#F0F8FF; color: black; height:20px; width:800px;">CV</a>
+      </nav>
+      <div>
+        <h1>Contact Us</h1><hr><br><br><br>
+        <p>Would you like to get in touch with the creator?</p>
+        <p>Click the button to be directed to the creator e-mail.</p>
+        <p><u><b>Note:</b></u> E-mail should contain the following, in addition</p>
+        <p>to what you would like to send in the message: </p>
+        <ul>
+          <li>Name of sender</li>
+          <li>Topic of or reason for message</li>
+          <li>Constructive criticism, if any</li>
+        </ul>
+
+        <p id="demo"></p>
+        <button onclick="bodyFunction()">
+          <a href="mailto:" target="_blank">Creator Mail</a>
+        </button>
+
+        <p>You can also Get me on:</p>
+        <ul>
+          <li>WhatsApp: 07052114999</li>
+          <li>Discord: ..nothing#3846</li>
+          <li>Phone No.: 07052114999</li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <h3>Thank you for visiting</h3>
+      <p>This is still a demo site so if you have any suggestions just head</p>
+      <p>to the contact page.</p>
+      <p><a href="Contact.html" style="color:yellow">Contact Us</a><p>
+    </footer>
+
+    <script>
+      function bodyFunction(){
+        document.getElementById("demo").innerHTML="Thank you for contacting us.";
+      }
+    </script>
+  </body>
+</html>

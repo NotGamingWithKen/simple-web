@@ -1,0 +1,59 @@
+body{
+  background-color:white;
+}
+.main{
+  border:3px solid black;
+  background-color:#F5F5F5;
+  height: 100%;
+  width: 800px;
+  margin-left: 400px
+}
+.lh{
+  color:yellow;
+  background-color:#191970;
+  font-family:Times_New_Roman;
+}
+pre{
+  font-size: 15;
+  font-family: Arial;
+}
+.left{
+  background-color: #191970;
+  height: 100%;
+  width: 250px;
+  float:left;
+}
+.right{
+  background-color: white;
+  height: 100%;
+  width: 250px;
+  float:right;
+}
+.pfp{
+  border: 3px solid yellow;
+  width: 245px;
+  height: 200px;
+}
+.name{
+  background-color:#F0F8FF;
+  font-size:100%;
+  font-family:Times_New_Roman;
+}
+.ocup{
+  background-color:#F0F8FF;
+  font-size:10;
+}
+.rh{
+  color:white;
+  background-color:yellow;
+  font-family:Times_New_Roman;
+}
+.emj{
+  color:yellow
+}
+span{
+  color:white
+}
+.li{
+  color:white
+}
